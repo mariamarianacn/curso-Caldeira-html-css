@@ -66,13 +66,21 @@ body{
 
 .apresentacao__escrita__titulo{
     font-family: 'Krona One', sans-serif; 
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     color: #ffffff;
 
     display: inline;
     
     /*muito grande p/ celular*/
 } /*deixamos de usar só h1*/
+
+.apresentacao__escrita__titulo__sec{
+    font-family: 'Krona One', sans-serif; 
+    font-size: 1.5rem; 
+    color: #ffffff;
+
+    display: inline;
+}
 
 .apresentacao__escrita__titulo__strong{
     color: #22D4FD;
@@ -84,6 +92,11 @@ body{
     text-align: justify;
     text-indent: 10px;
     font-size: 1.2rem;
+}
+
+.apresentacao__escrita__titulo__a{
+    text-decoration: none;
+    color: #22D4FD;
 }
 
 .apresentacao__img{

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh; /*porcentagem, 100% da tela*/
+    background-color: black;
+    color: white;
+    box-sizing: border-box; /*impedir que os elementos filhos se dispersem*/
+}
+
+main{
+    display: flex;
+    align-items: center; /*initial:vai para o início | center: vai para o centro | end: vai para o fim*/
+    flex-direction: row; /*row: horizontal | column: coluna, vertical para cima | column: vertical em baixo */
+    justify-content: space-evenly;
+    margin: 10% 0%; /*DA VH! eu te amo, margin*/
+}
+
+.apresentacao__escrita{
+    width: 615px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.apresentacao__escrita__titulo{
+    font-family: 'Krona One', sans-serif; 
+    font-size: 30px; /*muito grande p/ celular*/
+} /*deixamos de usar só h1*/
+
+h1 strong{
+    color:#22D4FD;
+    
+}
+
+.apresentacao__escrita__parag{
+    font-family: 'Montserrat';
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    border-radius: 10px;
+
+    
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; /*não falaram no vídeo, mas eu lembrava!*/
+    padding: 20.5px 0px; /*nesse caso, apenas usamos o padding, ao invés do height. por quê? não sei exatamente...*/
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
